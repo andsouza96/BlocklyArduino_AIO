@@ -15,6 +15,7 @@ head.load(
 "blocks/BlocklyArduino/math.js",
 "blocks/BlocklyArduino/procedures.js",
 "blocks/BlocklyArduino/text.js",
+"blocks/atto/atto.js",
 function() {
     // Call a function when done
     console.log("Done loading Blockly@rduino Blocks");

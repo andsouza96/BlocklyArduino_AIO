@@ -19,6 +19,7 @@ function() {
 });
 
 head.load(
+"generators/arduino/atto.js",
 "generators/arduino/anemometer.js",
 "generators/arduino/arduino_base.js",
 "generators/arduino/arduino_BT.js",

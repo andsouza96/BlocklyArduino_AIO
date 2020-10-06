@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <toolbox>
-	<parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_VARIABLES,CAT_FUNCTIONS,CAT_MATH,CAT_ARDUINO</parametre>
+	<parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_VARIABLES,CAT_FUNCTIONS,CAT_MATH,CAT_ARDUINO,Atto</parametre>
 	<category name="CAT_LOGIC" colour="#FFAB19">
 		<block type="controls_if"></block>
 		<block type="controls_switch"></block>
@@ -152,6 +152,19 @@
 		name="NUM">0.5</field> </block> </value> </block> </category> -->
 	<category name="CAT_VARIABLES" custom="VARIABLE" colour="#FF8C1A"></category>
 	<category name="CAT_FUNCTIONS" custom="PROCEDURE" colour="#FF6680"></category>
+     <category name="Atto" colour="#00979D">
+		<category name="Atto Saida" colour="#00979D">
+			<block type="atto_led_red">
+				<value name="PIN">
+					<shadow type="math_number">
+						<field name="NUM">1</field>
+					</shadow>
+				</value>
+			</block>
+        </category>
+		<sep></sep>
+	</category>
+    
 	<sep></sep>
 	<category name="CAT_ARDUINO" colour="#00979D">
 		<block type="base_begin"></block>
@@ -411,6 +424,13 @@
 		</category>
 		<sep></sep>
 	</category>
+    
+    
+    
+    
+    
+    
+    
 	<category name="CAT_ANEMOROTATION" colour="#856D4D">
 		<block type="anemometre_vitesse_rotation">
 			<value name="PIN">
@@ -3877,5 +3897,6 @@
 		<block type="LoRa_disableInvertIq"></block>
 		<block type="LoRa_random"></block>
 	</category>
+
 </toolbox>
 

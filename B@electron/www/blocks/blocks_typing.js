@@ -1,4 +1,5 @@
 head.load(
+"blocks/atto/blocks_typing.js",
 "blocks/BlocklyArduino/blocks_typing.js",
 "blocks/Adafruit/Adafruit_motorshield/blocks_typing.js",
 "blocks/Adafruit/Adafruit_RGB_LCD_Shield/blocks_typing.js",

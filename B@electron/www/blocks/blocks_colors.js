@@ -70,6 +70,7 @@ Blockly.Blocks.robobox.HUE = "#004281";
 Blockly.Blocks.robots_sensors.HUE = "#00979D";
 Blockly.Blocks.robots_motors.HUE = "#5b99a5";
 Blockly.Blocks.robuno.HUE = "#1A1BFF";
+Blockly.Blocks.atto.HUE = "#00979D";
 Blockly.Blocks.RoMeo1.HUE = "#F39800";
 Blockly.Blocks.RoMeo2.HUE = "#F39800";
 Blockly.Blocks.RoMeo3.HUE = "#F39800";

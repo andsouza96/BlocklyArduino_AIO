@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <toolbox>
-	<parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_MATH, CAT_ARRAY, CAT_TEXT, CAT_VARIABLES,CAT_FUNCTIONS,CAT_ARDUINO
+	<parametre id="defaultCategories">CAT_LOGIC,CAT_LOOPS,CAT_MATH, CAT_ARRAY, CAT_TEXT, CAT_VARIABLES,CAT_FUNCTIONS,Atto,CAT_ARDUINO
 	</parametre>
 	<category name="CAT_LOGIC" colour="#FFAB19">
 		<block type="controls_if"></block>
@@ -110,6 +110,19 @@
 	<category name="CAT_VARIABLES" custom="VARIABLE" colour="#FF8C1A"></category>
 	<category name="CAT_FUNCTIONS" custom="PROCEDURE" colour="#FF6680"></category>
 	<sep></sep>
+    <category name="Atto" colour="#00979D">
+		<category name="Atto Saida" colour="#00979D">
+			<block type="atto_led_red">
+				<value name="PIN">
+					<shadow type="math_number">
+						<field name="NUM">1</field>
+					</shadow>
+				</value>
+			</block>
+        </category>
+		<sep></sep>
+	</category>
+    <sep></sep>
 	<category name="CAT_ARDUINO" colour="#00979D">
 		<block type="base_begin"></block>
 		<block type="base_setup"></block>
